@@ -833,7 +833,7 @@ window.onload = function() {
         context.stroke();
 
         // Draw the angle
-        context.lineWidth = 2;
+        context.lineWidth = 4;
         context.strokeStyle = "#0000ff";
         context.beginPath();
         context.moveTo(centerx, centery);
