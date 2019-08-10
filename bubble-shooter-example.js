@@ -762,7 +762,7 @@ window.onload = function() {
         context.fillStyle = "#e8eaec";
         context.fillRect(0, 0, canvas.width, canvas.height);
         
-        // Draw header
+        /* Draw header
         context.fillStyle = "#303030";
         context.fillRect(0, 0, canvas.width, 79);
         
@@ -774,7 +774,7 @@ window.onload = function() {
         // Display fps
         context.fillStyle = "#ffffff";
         context.font = "12px Verdana";
-        context.fillText("Fps: " + fps, 13, 57);
+        context.fillText("Fps: " + fps, 13, 57); */
     }
     
     // Render tiles
