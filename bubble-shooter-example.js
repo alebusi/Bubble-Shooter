@@ -31,6 +31,7 @@ window.onload = function() {
     var fps = 0;
     
     var initialized = false;
+    var audioLanciaBall = new Audio('lancia.mp3');
     
     // Level
     var level = {
@@ -971,6 +972,7 @@ window.onload = function() {
     // Shoot the bubble
     function shootBubble() {
         // Shoot the bubble in the direction of the mouse
+        audioLanciaBall.play();
         player.bubble.x = player.x;
         player.bubble.y = player.y;
         player.bubble.angle = player.angle;
