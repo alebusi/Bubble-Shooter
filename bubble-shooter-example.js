@@ -764,7 +764,7 @@ window.onload = function() {
         context.fillRect(0, 0, canvas.width, canvas.height);
         
         // Draw header
-        context.fillStyle = "#303030";
+        context.fillStyle = "#000000";
         context.fillRect(0, 0, canvas.width, 79);
         
         /* Draw title
