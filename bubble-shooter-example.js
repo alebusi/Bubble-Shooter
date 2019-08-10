@@ -762,11 +762,11 @@ window.onload = function() {
         context.fillStyle = "#e8eaec";
         context.fillRect(0, 0, canvas.width, canvas.height);
         
-        /* Draw header
+        // Draw header
         context.fillStyle = "#303030";
         context.fillRect(0, 0, canvas.width, 79);
         
-        // Draw title
+        /* Draw title
         context.fillStyle = "#ffffff";
         context.font = "24px Verdana";
         context.fillText("Bubble Shooter Example - Rembound.com", 10, 37);
